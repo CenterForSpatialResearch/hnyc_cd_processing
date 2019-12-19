@@ -37,7 +37,7 @@ Zimmermann Marie, strawgds. 165 Mercer, h 53 S. Oxford. B’klyn
 
 In the OCR output, longer records are often split into multiple lines. 
 
-<img src="https://github.com/CenterForSpatialResearch/hnyc_cd_processing/blob/master/image_1.PNG" width="256">
+<img src="https://github.com/CenterForSpatialResearch/hnyc_cd_processing/blob/master/image_1.PNG" width="512">
 
 Therefore the first step is to dewrap lines when the first letter of next line is not equal to the initial letter in this section. There are a few special cases in the start of the next line that requires attention (B’klyn, B'way, E., W.), as they are part of addresses rather than the start of a new record. In this script, footnotes and extra delimiters are also removed.
 
