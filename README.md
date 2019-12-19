@@ -56,13 +56,13 @@ After identifying major components from each record, more detailed fields need t
 ## Prerequisites:
 To successfully run through these scripts, the following packages are needed:
 
- •	sklearn-crfsuite
+-sklearn-crfsuite
 
- •	sklearn
+-sklearn
 
- •	pandas
+-pandas
 
- •	pickle
+-pickle
 
- •	json
+-json
   
