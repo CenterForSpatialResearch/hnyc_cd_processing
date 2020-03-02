@@ -33,7 +33,7 @@ Zimmermann Marie, strawgds. 165 Mercer, h 53 S. Oxford. B’klyn
  'Widow-flag': 'False'}
 ```
 
-## Script 1: Data Preprocessing (City_Directory_Formatting.ipynb)
+## Script 1: Data Preprocessing (01_City_Directory_Formatting.ipynb)
 
 In the OCR output, longer records are often split into multiple lines. 
 
@@ -41,7 +41,7 @@ In the OCR output, longer records are often split into multiple lines.
 
 Therefore the first step is to dewrap lines when the first letter of next line is not equal to the initial letter in this section. There are a few special cases in the start of the next line that requires attention (B’klyn, B'way, E., W.), as they are part of addresses rather than the start of a new record. In this script, footnotes and extra delimiters are also removed.
 
-## Script 2: Build CRF Model (CRF.ipynb)
+## Script 2: Build CRF Model (02_CRF.ipynb)
 
 Conditional Random Field model is used in this project to identify name, occupation and address. In this script, a CRF is trained, and then evaluated on a test data set. Evaluation metrics include precision, recall and F1-score. Label notations and an example of labeled record are shown below.
 
@@ -50,7 +50,7 @@ Conditional Random Field model is used in this project to identify name, occupat
   <img src="https://github.com/CenterForSpatialResearch/hnyc_cd_processing/blob/master/record_label.PNG" width="128">
 <p>
   
-## Script 3: Generate Final Fields (Final_Output.ipynb)
+## Script 3: Generate Final Fields (03_Final_Output.ipynb)
 After identifying major components from each record, more detailed fields need to be generated, such as first name, last name, house number and street name etc.
 
 ## Prerequisites:
