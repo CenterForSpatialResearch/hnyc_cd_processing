@@ -1,6 +1,6 @@
 # hnyc_cd_processing
 
-This repository contains three Python scripts that can help us generate final fields of interest from the [1850](1850) and [1880](1880) City Directory. One can run through these scripts in the following order to get the final output.
+This repository contains three Python scripts that can help us generate final fields of interest from the [1850](input/1850) and [1880](input/1880) City Directory. One can run through these scripts in the following order to get the final output.
 
 The relevant input and output files can be found on the [HNYC google drive](https://drive.google.com/drive/u/1/folders/1sEB2Tem9t7ZMNK24jTNZxtPQ2CN1ObPI)
 
