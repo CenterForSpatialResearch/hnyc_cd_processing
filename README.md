@@ -1,6 +1,6 @@
 # hnyc_cd_processing
 
-This repository contains three Python scripts that can help us generate final fields of interest from the 1850 and 1880 City Directory. One can run through these scripts in the following order to get the final output.
+This repository contains three Python scripts that can help us generate final fields of interest from the [1850](1850) and [1880](1880) City Directory. One can run through these scripts in the following order to get the final output.
 
 **Sample Input**
 
