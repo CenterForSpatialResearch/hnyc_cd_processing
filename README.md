@@ -4,6 +4,8 @@ This repository contains three Python scripts that can help us generate final fi
 
 The relevant input and output files can be found on the [HNYC google drive](https://drive.google.com/drive/u/1/folders/1sEB2Tem9t7ZMNK24jTNZxtPQ2CN1ObPI)
 
+[EDA](http://htmlpreview.github.io/?https://raw.githubusercontent.com/CenterForSpatialResearch/hnyc_cd_processing/master/EDA.html) was created for the 1850 and 1880 outputs.
+
 **Sample Input**
 
 ```
