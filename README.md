@@ -1,12 +1,17 @@
 # hnyc_cd_processing
 
-This repository contains three Python scripts that can help us generate final fields of interest from the [1850](input/1850) and [1880](input/1880) City Directory. One can run through these scripts in the following order to get the final output.
+This repository contains three Python scripts that can help us generate final fields of interest from the [1850](input/1850) and [1880](input/1880) City Directory. You can use these scripts in the following order to obtain the final outputs.
 
 The relevant input and output files can be found on the [HNYC google drive](https://drive.google.com/drive/u/1/folders/1sEB2Tem9t7ZMNK24jTNZxtPQ2CN1ObPI)
 
+There are 3 different inputs:
+* 1880 Manhattan
+* 1850 Manhattan
+* 1850 Brooklyn
+
 [EDA](http://htmlpreview.github.io/?https://raw.githubusercontent.com/CenterForSpatialResearch/hnyc_cd_processing/master/EDA.html) was created for the 1850 and 1880 outputs.
 
-**Sample Input**
+**Sample Input (1880 MN)**
 
 ```
 Zimmermann Marie, strawgds. 165 Mercer, h 53 S. Oxford. B’klyn
