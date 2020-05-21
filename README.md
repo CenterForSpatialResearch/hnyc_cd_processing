@@ -11,6 +11,8 @@ The relevant input and output files can be found on the [HNYC google drive](http
 
 An [EDA](http://htmlpreview.github.io/?https://raw.githubusercontent.com/CenterForSpatialResearch/hnyc_cd_processing/master/EDA.html) was created for the 1850 and 1880 outputs.
 
+***
+
 **Sample Input (1880 MN)**
 
 ```
