@@ -52,6 +52,18 @@ In the OCR output, longer records are often split into multiple lines.
 
 Therefore the first step is to dewrap lines when the first letter of next line is not equal to the initial letter in this section. There are a few special cases in the start of the next line that requires attention (B’klyn, B'way, E., W.), as they are part of addresses rather than the start of a new record. In this script, footnotes and extra delimiters are also removed.
 
+The format of the 1880_MN, 1850_MN and 1850_BK input data are different. Hence, there are slight differences in the way the data was pre-processed.
+- The 1850_MN and 1850_BK data are not split by '***' 
+ - 1850_MN is split by 'B., C., D.', ...
+ - 1850_BK is split by 'B, C, D', ...
+- The first 8 lines in the 1850_BK dataset are headers, which were not required so they were removed
+- Several extra steps were taken to clean the 1850_BK data
+ - Remove page numbers
+ - Remove 'Brooklyn Directory' headers
+ - Remove whitespace and line breaks
+ - Move text that were wrapped by [ and ( to the correct row
+ - Clean up the Occupation tagging format
+
 ## Script 2: Build CRF Model (02_CRF.ipynb)
 
 Conditional Random Field model is used in this project to identify name, occupation and address. In this script, a CRF is trained, and then evaluated on a test data set. Evaluation metrics include precision, recall and F1-score. Label notations and an example of labeled record are shown below.
@@ -60,9 +72,13 @@ Conditional Random Field model is used in this project to identify name, occupat
   <img src="https://github.com/CenterForSpatialResearch/hnyc_cd_processing/blob/master/images/label_notation.PNG" width="512">
   <img src="https://github.com/CenterForSpatialResearch/hnyc_cd_processing/blob/master/images/record_label.PNG" width="128">
 <p>
+ 
+Because the 1850 BK data use different abbreviations that are used to identify the name, occupation and address, it uses a separate training and testing dataset. This is the 1850_train_bk and 1850_validation_bk datasets found in the google drive.
   
 ## Script 3: Generate Final Fields (03_Final_Output.ipynb)
 After identifying major components from each record, more detailed fields need to be generated, such as first name, last name, house number and street name etc.
+
+- Due to the extra abbreviations in the 1850_BK dataset, additional fields like '\*' denoting a person of color can be extracted 
 
 ## Prerequisites:
 To successfully run through these scripts, the following packages are needed:
