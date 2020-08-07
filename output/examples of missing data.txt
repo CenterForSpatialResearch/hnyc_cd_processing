@@ -1,0 +1,88 @@
+Examples of missing data in previous 1880 cleaned file:
+These start from line no 300418 in nypl_1880_81_starred.txt file (original raw data file)
+A***
+266794	Ayres Zephaniah S. iron, 506 W. 45th, h 15 - c
+266795	Ayres A. & Son, iron, 625 Tenth av.
+266796	Ayres J. B. & Co. paper, 33 Beekman
+266797	Ayt Powell, laborer, h 512 W. 44th
+266798	Ayuela Antonio, broker, h 853 Seventh av.
+266799	Axman S. janitor, h 815 Lex. av.
+266800	Axthelm Otto, tailor, h 14 Av. A
+266801	Axtmann Emil, cook, h 233 W. 19th
+266802	Axtmann John M. locks, 1579 Third av. h 1391 Fourth av.
+266803	Axtt Henry, engineer, h 549 Pearl
+266804	Aycrigg Benjamin B. 318 B’way, h N. J.
+266805	Aydelotte John B. agent, h 202 Eighth av.
+266806	Aye August, cutter, h 73 Orchard
+266807	Ayen Adolph, butcher, h 630 Second av.
+266808	Ayen Peter, meat, 508 Second av.
+266809	Ayer Albert F. grocer, Third av. n 127th, h 212 E. 128th
+266810	Ayer Benjamin, tea. 124 Front, h B’klyn
+266811	Ayer Frederick, sec. 21 Nassau, h Mass.
+266812	Ayer James, grocer, 2365 Third av. h 212 E. 128th
+266813	Ayer Josephine M. wid. James C. h 5 W. 57th
+266814	Ayers Aborn, bartender, h 144 Elm
+266815	Ayers Abraham, liquors, 49.5 Baxter, h 144 Elm
+266816	Ayers Annie, wid. Thomas, h 125 W. 38th
+
+
+Examples of missing data in previous 1850 bk cleaned file:
+These start from line 2021 GNA_bk_1850 (raw data file)
+1830	Bull Rev Mitchell P, 110 Jay
+1831	Bull Sarah, widow, Fulton c Prospect
+1832	Bull Mrs Thomas, Clinton n Fulton av
+1833	Bulling Miles, gardener, 283 Adams
+1834	Bullinger Josiah B, pilot, 99 Degraw
+1835	Bullinger Charles, jeweller, Adelphi n Fulton av
+1836	Bulloch Jones, Dean n Hoyt
+1837	Bullock John, merchant, 38 Fine NYh 3d av n 17th st Gowanus
+1838	Bullock Molton, 53 Johnson n Pearl
+1839	Bullwinkle John, grocer ]Myrtle cClasson av
+1840	Bulhvinkle John, grocer, 155 Myrtle av c Carll
+1841	Bulmar James, builder, Pacific n Court
+1842	Bulmar James jr, carpenter, Pacific n Court
+1843	Bulmar J K, builder, 179 Myrtle av
+1844	Bunce Charles, piano forte maker, 40 Fulton h 224 Jay
+1845	Bunce Harvey, grocer, 177 Fulton c Nassau h 145 Jay
+1846	Bunce Jane, widow, 74 Hicks c Orange
+1847	Bunce John, basket and fancy store, 92 & 94 Fulton h 151 High
+1848	Bunce J A, blacksmith, Pacific c Willow
+1849	Bunce Jonathan, printer, 145 Jay
+1850	Bunce J A, blacksmith, Willow c Pacific h Smith c Baltic
+1851	Bunce Joshua, St Charles Hotel Fulton c Middagh h 82 Orange
+1852	Bunce Richard, 121 High
+1853	Bundick Simon, laborer, Crow hill Bedford
+1854	Bunford Edmond, butcher, 4 Brooklyn market h 44 Stanton
+1855	Bunker Edward H, 228 Bridge
+1856	Bunker Albert G, 228 Bridge
+1857	Bunker Charles, painter, 5 Hudson av
+1858	Bunker David M, shipmaster, 229 Bridge
+1859	Bunker Paul, teller, Bank of NY'h 9 Middagh
+1860	Bunker Reuben, weigh master, 97 Pine N Y h 269 Jay
+1861	Bunker Robert T, city weigher, Classon av n Hickory
+1862	Bunker Thomas R, 337 Gold
+
+
+Examples of wrongly concated files in 1850_mn file:
+They start from line 18 in nypl_1850_51_starred_clean_old.txt file (old clean file) and from line 38 in nypl_1850_51_split_v3.txt file (raw data file)
+19      Bagley William, clerk, bank, 50 Wall, h. 91 Henry, Brooklyn
+20	BAIN ALEXANDER, telegraph inventor, 181 Broadway, h. Irving house
+21	Baldwin Ezekiel, shoemaker, 79 Av. B
+22	Ball Isaac, pedler, 66 Mangin
+23	Bannon Michael, cooper, 304 Ninth
+24	Bannore Christopher, shoes, E. 13th n. Av. A
+25	Barratt Thomas, carman, 605 Fourth
+26	Barrowclough James, E. 24th c. Av. 3
+27	Barry James, marblepolisher, 294 Eleventh
+28	Barry John, carpenter, 60 Av. C
+29	Bates John C. sarsaparilla, 82 Nassau, h. Brooklyn
+30	Beach John T. paper, 43 Fulton, h. 22 Vesey
+31	Bear Isaac, drygoods, 105 Av. D, h. 105 Av. D
+32	Beard William, carpenter, 89 E. 11th
+33	Becom John J. sawyer, Av. C n. Eleventh
+34	Beebe Joseph D. rigger, 350 Tenth
+35	Beebe & Co. builders. W. 24th n. Av. 10
+36	Beers William P. butcher, 69 Orange, h. 77 Third
+37	Bender George W. tailor, 27 Av. A
+38	Bennett Cornelius, carman, 400 Tenth
+39	Bennett George, shoemaker, 131 Av. C
